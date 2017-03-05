@@ -17,9 +17,9 @@ public class Main {
         // todo: set all four properties of the Planet class on the planet1 instance: name, distanceFromSun, satellites, and supportsLife.
         Planet plant2= new Planet();
         // todo: create another new variable named "planet2" and set it to a new instance of the Planet class
-        plant2.name="Mars";
-        plant2.distanceFromSun=.08;
-        plant2.satellites=2;
+        plant2.name="Earth";
+        plant2.distanceFromSun=1;
+        plant2.satellites=1;
         plant2.supportsLife=true;
         // todo: set all four properties of the Planet class on the planet2 instance
         System.out.println("Name: "+plant1.name+" distanceFromSun: "+plant1.distanceFromSun+" satellites: "+plant1.satellites+" supportsLife: "+plant1.supportsLife);
